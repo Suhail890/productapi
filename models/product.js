@@ -9,7 +9,7 @@ const productSchema = mongoose.model("Products",{
     type: Number,
     required: true,
   },
-  feature: {
+  featured: {
     type: Boolean,
     default: false,
   },
